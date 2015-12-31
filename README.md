@@ -2,6 +2,7 @@
 A Java implementation of 2-Player Chess.
 
 ![Preview](chess/images/preview.PNG)
+
 *Above is a queen-sacrifice white checkmate achievable in 7 moves.*
 
 All standard rules of the game are implemented, including pawn promotion, en passant, castle, and stalemate. After compiling, play by running
