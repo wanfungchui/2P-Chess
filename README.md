@@ -5,8 +5,16 @@ A Java implementation of 2-Player Chess.
 
 *Above is a queen-sacrifice white checkmate achievable in 7 moves.*
 
-All standard rules of the game are implemented, including pawn promotion, en passant, castle, and stalemate. After compiling, play by running
-```java chess.Main```
+All standard rules of the game are implemented, including pawn promotion, en passant, castle, and stalemate. Compile and play by running
+```
+javac chess/*.java
+java chess.Main
+```
+or
+```
+make
+java chess.Main
+```
 
 The UI is based off Chess Titans, a default game that comes packaged with Windows 7. Play commences by clicking pieces and their desired destinations on a GUI powered by Graphics2D and the [ucb.gui] (https://inst.eecs.berkeley.edu/~cs61b/fa15/docs/ucb-docs/ucb/gui/package-summary.html) package. Players can choose to begin a new game, undo their previous move, or quit.
 
