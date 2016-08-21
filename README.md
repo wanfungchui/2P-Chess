@@ -13,11 +13,11 @@ Colors and types are designed as enums, while the Piece interface is implemented
 
 # Usage
 
-To compile and play, ensure you have the latest version of Java JDK installed and its commands added to path. Then run in the terminal:
+To compile and play, ensure you have the latest version of make and Java JDK installed and their commands added to path. Then run in the terminal:
 ```
 $ git clone https://github.com/wanfungchui/2P-Chess
 $ cd 2P-Chess
-$ javac chess/*.java # (or simply use make)
+$ make
 $ java chess.Main
 ```
 
