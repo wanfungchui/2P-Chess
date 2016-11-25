@@ -1,8 +1,5 @@
 package chess;
 
-import ucb.gui.TopLevel;
-import ucb.gui.LayoutSpec;
-
 import java.awt.event.MouseEvent;
 
 import static chess.GameDisplay.*;

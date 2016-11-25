@@ -1,7 +1,5 @@
 package chess;
 
-import ucb.gui.Pad;
-
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Rectangle;
